@@ -26,6 +26,7 @@ async function status(request, response) {
         max_connections: parseInt(maxConnections),
         opened_connextions: openConnections,
         version: version,
+        ssl: true,
       },
     },
   });
